@@ -1,0 +1,30 @@
+PERSONALIZZAZIONE CORSI
+
+STRUTTURA
+1) pagina di login
+2) pagina con un elenco di corsi
+3) pagina con un form per creare al volo un corso
+
+LAYOUT
+header con navbar (login, elenco, crea il tuo corso) e pulsante logout, corpo centrale, footer
+
+Mockup libero
+
+FUNZIONALITÀ
+1) LOGIN
+Form di login con user e password; la user DEVE essere una email valida (controllo), la password DEVE essere almeno di 6 caratteri e contenere almeno un numero (controllo); a controlli superati, dopo il click parte una progress bar (o spin bootstrap o altra idea di elemento di attesa) che dopo 5 secondi indirizza alla pagina dell'elenco corsi. (localStorage setItem)
+
+2) ELENCO CORSI
+Messaggio di benvenuto all'utente loggato (comparirà la email inserita come user). (localStorage getItem)
+Mostrare TRE esempi di corso da creare utilizzando una classe (es. creare la classe corretta per illustrare il nostro corso) con il rispettivo programma didattico (5 punti al massimo).
+
+3) CREAZIONE CORSO
+Pagina con un form con queste caratteristiche:
+a. INTESTAZIONE FORM: una dicitura (es. 'corso creato da'...) con il nome dell'utente (localStorage getItem)
+b. input in cui inserire il nome del corso (obbligatorio)
+c. input dove inserire la durata del corso (obbligatorio)
+d. TRE combo con un elenco di materie, da cui scegliere le tre materie che saranno oggetto del corso, ALMENO UNA OBBLIGATORIA (controllo) (facoltativo: controllo su scelte diverse tra i tre combo)
+e. button di convalida del corso creato
+Al superamento dei controlli, dopo il click al di sotto del form compare il corso appena creato
+
+PULSANTE LOGOUT: reindirizza alla pagina di login cancellando la user memorizzata (localStorage clear)

@@ -1,0 +1,103 @@
+        html{
+            background-color: silver;
+            background-size: contain;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url("/img/grattacielo.1020x680.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.7;
+            height: 100%;
+            position:relative;
+      
+            
+
+            
+        }
+        .nav{
+            position: sticky;
+        }
+
+        #benvenuto {
+            text-align: center;
+            color: blue;
+        }
+        #logout{
+            float: right;
+            background-color: rgba(126,169,255,0.8);
+            border-radius: 30px;
+            
+
+        }
+        #stampa{
+            background-color: rgba(126,169,255);
+            border-radius: 30px;
+
+        }
+
+        .form{
+            width: 40vw;
+            display: block;
+            margin:30px auto;
+            border: 1px silver solid;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: rgba(126,169,255,0.8);
+            color: white;
+            
+        }
+
+        #progress {
+            background-color: rgba(126,169,255,0.8);
+            width: 1px;
+            height: 40px;
+            display: block;
+            margin:30px auto;
+            border-radius: 10px;
+        }
+        #dimensione1{
+           width: 50vw;
+           background-color: rgba(126,169,255,0.8);
+           display: block;
+           margin:30px auto;
+           border-radius: 10px;
+           padding: 10px;
+        }
+
+        .dimensione2{
+            height: 300px;
+            width: 400px;
+            display: block;
+            margin:30px auto;
+       
+        }
+ 
+        h1{
+            text-align: center;
+            color: rgba(126,169,255,0.8); ;
+        }
+        footer{
+            background-color: white;
+            margin-top: 10vw;
+            padding: 30px;
+            display: flex;
+            justify-content:space-evenly;
+        }
+        footer ul {
+            list-style: none;
+       
+            
+          
+            
+        }
+        footer ul li {
+            display: inline-block;
+            margin: 0 auto;
+        }
+       
+
+
+       
+
+        
